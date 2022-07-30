@@ -1,0 +1,27 @@
+###
+GET http://localhost:3000/api/employees
+
+###
+GET http://localhost:3000/api/employees/62e4706a0894c1f6efaaff08
+
+###
+POST http://localhost:3000/api/employees
+Content-Type: application/json
+
+{
+  "name": "Natalia Rossi",
+  "office": "London",
+  "position": "Jr Developer",
+  "salary": "15000"
+}
+
+###
+DELETE http://localhost:3000/api/employees/62e470880894c1f6efaaff0b
+
+###
+PUT http://localhost:3000/api/employees/62e4718f3b593d6c59b297f4
+Content-Type: application/json
+
+{
+  "salary": "5000"
+}
